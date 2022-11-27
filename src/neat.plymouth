@@ -1,0 +1,7 @@
+[Plymouth Theme]
+Name=Neat
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/neat/assets
+ScriptFile=/usr/share/plymouth/themes/neat/neat.script
