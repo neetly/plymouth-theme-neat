@@ -5,10 +5,8 @@
 | ![Default Screenshot](./screenshots/default.png) | ![Password Screenshot](./screenshots/password.png) |
 
 ```sh
-sudo cp -rT ./src /usr/share/plymouth/themes/neat
-sudo tee /etc/plymouth/plymouthd.conf << EOF > /dev/null
-[Daemon]
-Theme=neat
-DeviceScale=1
-EOF
+paru -S plymouth-theme-neat
+sudo plymouth-set-default-theme neat
+echo "DeviceScale=1" | sudo tee -a /etc/plymouth/plymouthd.conf
+sudo mkinitcpio -P
 ```
