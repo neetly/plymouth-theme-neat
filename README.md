@@ -1,5 +1,7 @@
 # Plymouth Theme Neat
 
+HiDPI-Friendly Plymouth Theme for Arch Linux
+
 | Default                                          | Password                                           |
 | ------------------------------------------------ | -------------------------------------------------- |
 | ![Default Screenshot](./screenshots/default.png) | ![Password Screenshot](./screenshots/password.png) |

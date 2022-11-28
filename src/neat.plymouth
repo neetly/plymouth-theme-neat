@@ -1,5 +1,6 @@
 [Plymouth Theme]
 Name=Neat
+Description=HiDPI-Friendly Plymouth Theme for Arch Linux
 ModuleName=script
 
 [script]
